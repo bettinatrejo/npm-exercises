@@ -1,0 +1,29 @@
+{
+  "name": "npm-exercises",
+  "version": "1.0.0",
+  "description": "npm exercise ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bettinatrejo/npm-exercises.git"
+  },
+  "author": "Bettina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bettinatrejo/npm-exercises/issues"
+  },
+  "homepage": "https://github.com/bettinatrejo/npm-exercises#readme",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^3.11.0"
+  }
+}
