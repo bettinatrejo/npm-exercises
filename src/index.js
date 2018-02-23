@@ -1,6 +1,7 @@
 "use strict";
 {
     const $ = require('jquery');
+    const hello = require('./say-hello.js');
 
 
     let sayHi = function () {
@@ -15,7 +16,7 @@
     });
 
     $('h2').click(function() {
-        $(this).css("background-color", "pink");
+        $(this).css("background-color", "yellow");
     });
 
 
